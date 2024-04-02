@@ -148,9 +148,52 @@
     font-size: 18px;
 }
 
+.blog__post-tag-two{
+    border: 0;
+    font-size: 1em;
+    font-family: var(--tg-heading-font-family);
+}
+li.blog-date , li.blog-date i{
+    font-size: 1rem;
+    color: rgb(0 0 0 / 50%);
+}
+.blog__post-two{
+    box-shadow: 0 20px 55px rgba(82,71,175,.09);
+    border: 0;
+    border-radius: 4px;
+}
+.contact__form-wrap{
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,.05);
+}
+.contact__form-wrap form .form-grp input{
+    background: #f6f6f6;
+    color: #aaa;
+    border-radius: 4px;
+    border: 0;
+}
+.contact__form-wrap form .form-grp textarea{
+    background: #f6f6f6;
+    color: #aaa;
+    border-radius: 4px;
+    border: 0;
+}
+.contact-cols .contact-col{
+    text-align: center;
+}
+.contact-cols .contact-col .card-services-type-01{
+    height: 90%;
+}
+
+
 @media (min-width: 992px) {
     .choose__img-wrap-five img:nth-child(1) {
 
         width: 70%;
       }
+      .contact__form-wrap{
+
+        padding: 65px 50px;
+    }
 }
